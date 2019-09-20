@@ -1,0 +1,1 @@
+<view class="search"><view class="s-left"><input type="text" placeholder="{{placeholder}}" data-event-opts="{{[['input',[['__set_model',['','searchText','$event',[]]]]]]}}" value="{{searchText}}" bindinput="__e"/></view><view data-event-opts="{{[['tap',[['search',['$event']]]]]}}" class="s-right" bindtap="__e">搜索</view></view>

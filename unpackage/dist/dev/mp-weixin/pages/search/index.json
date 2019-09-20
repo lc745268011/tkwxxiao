@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查找",
+  "usingComponents": {
+    "search": "/components/search/index",
+    "goodslist": "/components/goodslist/index"
+  }
+}

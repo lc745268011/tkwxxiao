@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.login .loginbg.data-v-5cf820a0 {
+  width: 750rpx;
+  height: 328rpx;
+}
+.login .bindphone.data-v-5cf820a0 {
+  margin: 70rpx 40rpx;
+}
+.login .bindphone ._p.data-v-5cf820a0 {
+    color: #ff5600;
+    font-size: 46rpx;
+}
+.login .bindphone .input.data-v-5cf820a0 {
+    position: relative;
+    margin: 60rpx 0 100rpx;
+}
+.login .bindphone .input .tips.data-v-5cf820a0 {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+}
+.login .bindphone .input .tipsfoucs.data-v-5cf820a0 {
+      bottom: 60rpx;
+      font-size: 24rpx;
+}
+.login .bindphone .input .line1.data-v-5cf820a0, .login .bindphone .input .line2.data-v-5cf820a0 {
+      position: absolute;
+      bottom: -20rpx;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: #efefef;
+      width: 100%;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+}
+.login .bindphone .input .line2.data-v-5cf820a0 {
+      background: #ff5600;
+      width: 0;
+      margin: 0 auto;
+      height: 2px;
+}
+.login .bindphone .input .abc.data-v-5cf820a0 {
+      width: 100%;
+}
+.login .bindphone .tk-input.data-v-5cf820a0 {
+    font-size: 32rpx;
+    margin-bottom: 20rpx;
+}
+.login .checkphone.data-v-5cf820a0 {
+  width: 670rpx;
+  margin: 200rpx auto 0;
+  height: 100rpx;
+  color: #fff;
+  background: #ff8040;
+  border: 0;
+  border-radius: 100rpx;
+}
+.login .h-checkphone.data-v-5cf820a0 {
+  opacity: 0.8;
+}
+

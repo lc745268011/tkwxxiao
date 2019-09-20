@@ -1,0 +1,1 @@
+<view class="order"><search vue-id="1" placeholder="请输入订单号" bind:__l="__l"></search></view>
